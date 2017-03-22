@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Article Scrapper</title>
+
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body style="background-color: lightgreen">
+
+<div class="container">
+	<h1>Article Scrapper</h1>
+	<div class="row">
+		<div class="col-md-3">
+			<form>
+				<div class="comments" class="form-group" style="display: none">
+					<label id="articleTitleNote"></label>
+					<input id="noteTitle" type="text" class="form-control" name="title" />
+					<textarea id="noteBody" class="form-control" name="body"></textarea>
+					<input id="articleId" type="hidden" value="">
+					<input id="submitNote" type="submit" value="Add New Note">
+				</div>
+			</form>
+		</div>
+		<div class="col-md-6">
+			<div id="articles"></div>
+		</div>
+		<div class="col-md-3">
+			<form>
+				<div class="comments" class="form-group " style="display: none">
+					
+					<select id="notes">
+						<option></option>
+					</select>
+					<textarea id="notedisplay" readonly="true" class="form-control"></textarea>
+					<input id="deleteNote" type="submit" value="Delete Note">
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<p>Created by Paul Wicklund</p>
+	<a href="https://github.com/paulwick1/mongoScraper">Github</a>
+</footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous">  	
+</script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

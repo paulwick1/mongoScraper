@@ -1,0 +1,33 @@
+{
+  "name": "article-scraper",
+  "version": "1.0.0",
+  "description": "a news scrapper app that collects news articles and allows users to comment about them",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulwick1/mongoScraper.git"
+  },
+  "keywords": [
+    "news",
+    "articles",
+    "comment"
+  ],
+  "author": "Paul Wicklund",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulwick1/mongoScraper/issues"
+  },
+  "homepage": "https://github.com/paulwick1/mongoScraper#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.6.6",
+    "request": "^2.78.0"
+  }
+}
